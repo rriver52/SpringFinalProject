@@ -1,19 +1,13 @@
-<template>
-    <title>The Generics | Store</title>
-        <meta name="description" content="This is the description">
-        <link rel="stylesheet" href="style.css" />
-        <script src="main.js" async></script>
 
+
+<template>
+
+
+  
     <body>
         <header class="main-header">
             <nav class="main-nav nav">
-                <ul>
-                    
-                    <li><a href="index.html">Pants</a></li> 
-                    <li><a href="store.html">Shoes</a></li> 
-                    <li><a href="store2.html">Shirts</a></li> 
-                    
-                </ul>
+              
             </nav>
             <h1 class="name name-large">Reyes Clothing Store</h1>
         </header>
@@ -22,33 +16,34 @@
             <div class="shop-items">
                 <div class="shop-item">
                     <span class="shop-item-title">Item 1</span>
-                    <img class="shop-item-image" src="Images2/images.jpg">
+                    <img class="shop-item-image" src="../Images3/Pants1.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$79.99</span>
+                        <span class="shop-item-price">$49.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="shop-item">
                     <span class="shop-item-title">Item 2</span>
-                    <img class="shop-item-image" src="Images2/shoes.jpg">
+                    <img class="shop-item-image" src="../Images3/Pants2.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$30.99</span>
+                        <span class="shop-item-price">$20.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+
                     </div>
                 </div>
                 <div class="shop-item">
                     <span class="shop-item-title">Item 3</span>
-                    <img class="shop-item-image" src="Images2/shoes3.jpg">
+                    <img class="shop-item-image" src="../Images3/Pants3.webp">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$73.99</span>
+                        <span class="shop-item-price">$53.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="shop-item">
                     <span class="shop-item-title">Item 4</span>
-                    <img class="shop-item-image" src="Images2/shoes4.jpg">
+                    <img class="shop-item-image" src="../Images3/Pants4.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$87.99</span>
+                        <span class="shop-item-price">$37.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
@@ -58,18 +53,18 @@
             <h2 class="section-header">Popular</h2>
             <div class="shop-items">
                 <div class="shop-item">
-                    <span class="shop-item-title">Shoe</span>
-                    <img class="shop-item-image" src="Images2/shoes 5.jpg">
+                    <span class="shop-item-title">Pants</span>
+                    <img class="shop-item-image" src="../Images3/Pants5.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$35.99</span>
+                        <span class="shop-item-price">$75.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
                 <div class="shop-item">
-                    <span class="shop-item-title">Shoe</span>
-                    <img class="shop-item-image" src="Images2/shoes 6.jpg">
+                    <span class="shop-item-title">Pants</span>
+                    <img class="shop-item-image" src="../Images3/Pants6.jpg">
                     <div class="shop-item-details">
-                        <span class="shop-item-price">$99.99</span>
+                        <span class="shop-item-price">$69.99</span>
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
@@ -96,17 +91,17 @@
                 <ul class="nav footer-nav">
                     <li>
                         <a href="https://www.facebook.com" target="_blank">
-                            <img src="Images/facebook.png">
+                            <img src="../Images/facebook.png">
                         </a>
                     </li>
                     <li>
                         <a href="https://twitter.com" target="_blank">
-                            <img src="Images/twitter.webp">
+                            <img src="../Images/twitter.webp">
                         </a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/" target="_blank">
-                            <img src="Images/intagram.jpg">
+                            <img src="../Images/intagram.jpg">
                         </a>
                     </li>
                 </ul>
@@ -114,5 +109,3 @@
         </footer>
     </body>
 </template>
-        
-

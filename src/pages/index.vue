@@ -21,6 +21,6 @@ const { isAuthenticated, user } = useAuth();
     <h2 v-else class="text-6xl tracking-tighter font-extralight">
       Welcome {{ user }}
     </h2>
-    <img src="../assets/shop.jpg" alt="Hello BG" />
+    <img src="../assets/shop.jpg" alt="Hello" />
   </div>
 </template>

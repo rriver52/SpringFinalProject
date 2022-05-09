@@ -45,7 +45,7 @@ const loggingOut = () => {
             </li>
           </router-link>
           <div v-else class="flex">
-            <router-link :to="{ name: 'Secret' }">
+            <router-link :to="{ name: 'Store' }">
               <li
                 class="px-4 py-8 hover:cursor-pointer hover:bg-red-500 hover:text-green-800"
               >
